@@ -58,7 +58,9 @@ Before uploading, you need to create OAuth 2.0 credentials:
 📂 Folder Structure
 shorts-automation/
 │
+
 ├── downloads/             # Downloaded shorts saved here
+
 ├── download_youtube.py    # Script to download shorts from Excel
 ├── upload_shorts.py       # Script to upload shorts to YouTube
 ├── client_secrets.json    # Your OAuth 2.0 client credentials
