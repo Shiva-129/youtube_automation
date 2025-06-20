@@ -11,8 +11,8 @@ This project helps automate downloading YouTube Shorts from a list of URLs store
 🛠️ How to Use
 1. Clone this Repository
 
-git clone 
-cd shorts-automation
+git clone https://github.com/Shiva-129/youtube_automation.git
+cd youtube_automation
 2. Prepare the Excel File
 
 Place your Excel file (videos.xlsx) in the root folder. It should contain a list of YouTube Shorts URLs.
@@ -58,9 +58,7 @@ Before uploading, you need to create OAuth 2.0 credentials:
 📂 Folder Structure
 shorts-automation/
 │
-
 ├── downloads/             # Downloaded shorts saved here
-
 ├── download_youtube.py    # Script to download shorts from Excel
 ├── upload_shorts.py       # Script to upload shorts to YouTube
 ├── client_secrets.json    # Your OAuth 2.0 client credentials
